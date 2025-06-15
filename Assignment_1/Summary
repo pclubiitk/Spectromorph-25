@@ -1,1 +1,23 @@
-temp
+Data Augmentation:
+Applied rotations, affine transforms, flips, color jitter — to handle the small and imbalanced dataset by synthetically increasing variety.
+
+Lightweight CNN (3 Hidden Layers Only):
+
+Conv2D (32) → ReLU → MaxPool
+
+Conv2D (64) → ReLU → MaxPool
+
+Conv2D (128) → ReLU → Global Average Pooling
+Fully connected dense layer only once — keeping the architecture simple & regularized.
+
+Regularization Techniques:
+
+Dropout (0.5) to prevent overfitting.
+
+L2 Weight Decay via Adam optimizer.
+
+Adaptive Learning Rate Scheduler:
+ReduceLROnPlateau reduces LR when validation loss plateaus — improving convergence.
+
+Validation Transform:
+No augmentation — only resizing and normalization to ensure fair evaluation.
