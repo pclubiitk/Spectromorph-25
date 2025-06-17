@@ -32,15 +32,21 @@ project/
 ├── project.ipynb
 └── requirements.txt
 ```
-The dataset can be downloaded from the link - drive.google.com/drive/folders/1Uo5WCK3z35z8k4k3gVfHn_N-OoE9rLNt?usp=sharing
+The dataset can be downloaded from the link -<a href="drive.google.com/drive/folders/1Uo5WCK3z35z8k4k3gVfHn_N-OoE9rLNt?usp=sharing" target="_blank">dataset</a>
 
 Now you are all set to run the notebook on your own native environment!
 
 ## Result of performance metrics
 The model was analyzed through some of the evaluation metrics to see if the generalization is better and following are the results:
-1. Accuracy and Loss on training sets and validation sets ![alt text](Loss.png)
-2. Confusion matrix of the test set: 
+1. Accuracy and Loss on training sets and validation sets
+  <div align="center">
+  <img src="https://github.com/NovaPrime2077/Spectromorph-25/blob/main/Assignment_1/Loss.png" alt="Example Image" width="800"/>
+  </div>
+3. Confusion matrix of the test set: 
 
-![alt text](CF_matrix.png)
+<div align="center">
+  <img src="https://github.com/NovaPrime2077/Spectromorph-25/blob/main/Assignment_1/CF_matrix.png" alt="Example Image" width="400"/>
+</div>
 
-### Author  = **Yuvraj Singh Nirban** aka **NovaPrime2077**
+#### Author 
+***Yuvraj Singh Nirban*** aka ***NovaPrime2077***
