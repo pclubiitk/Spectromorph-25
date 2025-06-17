@@ -4,7 +4,10 @@ The following model tries to use the CNNs(Convolutional Neural Networks) to clas
 ## Setup Instructions
 
 ### 1. Install all the dependencies:
-```bash pip install -r requirements.txt
+
+
+```bash
+pip install -r requirements.txt
 ```
 
 ### 2. Directory arrangement:
