@@ -43,12 +43,12 @@ Now you are all set to run the notebook on your own native environment!
 The model was analyzed through some of the evaluation metrics to see if the generalization is better and following are the results:
 1. Accuracy and Loss on training sets and validation sets
   <div align="center">
-  <img src="https://github.com/NovaPrime2077/Spectromorph-25/blob/main/Assignment_1/Loss.png" alt="Example Image" width="800"/>
+  <img src="https://github.com/NovaPrime2077/Spectromorph-25/blob/main/241215_Yuvraj_Singh_Nirban/Assignment_1/Loss.png" alt="Example Image" width="800"/>
   </div>
 3. Confusion matrix of the test set: 
 
 <div align="center">
-  <img src="https://github.com/NovaPrime2077/Spectromorph-25/blob/main/Assignment_1/CF_matrix.png" alt="Example Image" width="400"/>
+  <img src="https://github.com/NovaPrime2077/Spectromorph-25/blob/main/241215_Yuvraj_Singh_Nirban/Assignment_1/CF_matrix.png" width="400"/>
 </div>
 
 #### Author 
