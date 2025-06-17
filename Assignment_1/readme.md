@@ -32,7 +32,7 @@ project/
 ├── project.ipynb
 └── requirements.txt
 ```
-The dataset can be downloaded from the link -[dataset](drive.google.com/drive/folders/1Uo5WCK3z35z8k4k3gVfHn_N-OoE9rLNt?usp=sharing)
+The dataset can be downloaded from the link -[dataset](https://drive.google.com/drive/folders/1Uo5WCK3z35z8k4k3gVfHn_N-OoE9rLNt?usp=sharing)
 
 Now you are all set to run the notebook on your own native environment!
 
