@@ -39,4 +39,8 @@ Now you are all set to run the notebook on your own native environment!
 ## Result of performance metrics
 The model was analyzed through some of the evaluation metrics to see if the generalization is better and following are the results:
 1. Accuracy and Loss on training sets and validation sets ![alt text](Loss.png)
-2. Confusion matrix of the test set: ![alt text](CF_matrix.png)
+2. Confusion matrix of the test set: 
+
+![alt text](CF_matrix.png)
+
+### Author  = **Yuvraj Singh Nirban** aka **NovaPrime2077**
