@@ -1,1 +1,14 @@
-LSTM
+Considering the close as the target feature and rest of the features as the non-target features , we are facing the issue of missing non-target features on some of the dates.
+We must fill all of them for training the LSTM model.
+In the given dataset , none of the values in the first row is missing so , aftermath we can forward fill the missing values with the  non-missing values of  past  days of the given non-target feature.
+For training the model, all the rows with missing 'close' values are omitted and then the trained model is used for prediction of the missing 'close' values.
+We are going to use a LSTM model for this sequential dataset and prediction of the missing  values.  
+The features of the same day (Open, High, Low, Volume) and also the past m days of data (including the past Close, Open, etc.) to predict the current Close. 
+A window of [t-m, t-1] days (each day has: Open, High, Low, Volume, Close) and the current day (t) has: Open, High, Low, Volume (but not Close) and we want to predict Close at t.
+All the features (Open , Close , Volume , High and Low) for past m days and the four features (Open , High , Low and Volume) for the current day are used for training. 
+Process the sequence with LSTM and take the last hidden state. Concatenate with the current day's features. 
+Then through Dense layers to predict the current Close.
+We will create a dataset for every day  i(from m to end). Then , we split into training set ( with non-missing close value ) and the prediction set ( the days with the target close missing values) , then we train int he training set and predict on the prediction set.
+We choose m to be 5. Mon - Fri
+The main speciality of my current model according to me I that it combines the historical patterns with current time signals to predict chronologically like real - traders.
+Later also used optimizations like Adam .100 Epochs: Sufficient to learn patterns without overfitting and Batch Training: 32 samples/batch (balance speed & accuracy).
