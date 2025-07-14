@@ -1,0 +1,1 @@
+I tried other augmentation techniques like rotation, zoom, shifting or horizontal flip but the best accuracy I got was from just recaling the pixels from range [0, 255] to [0, 1]
